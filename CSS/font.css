@@ -6,5 +6,7 @@
 @media (max-width: 600px){
     .header{
         font-size: 32pt;
+        color: #FFFFFF;
+        text-shadow:4px 4px #333;
     }
 }
