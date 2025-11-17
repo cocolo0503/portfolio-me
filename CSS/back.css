@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* これを追加することで、意図しない横スクロールを防止できます */
+    overflow-x: hidden; 
+}
+
+html {
+    width: 100%;
+}
+
+header {
+    width: 1280px;
+    height: 107px;
+    display: flex;
+    padding: 30px 20px;
+    background-color: #694F64;
+}
+
+/* タイトル部分のdivは、余計なスタイルを無くしてシンプルに */
+.head {
+    /* width, min-height, position, background-image は不要なので削除 */
+    margin: 0; /* CSSの重複を避けるため、ここにマージンリセットを記述 */
+}
