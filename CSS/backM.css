@@ -14,7 +14,7 @@
         /* 画面幅いっぱいに広げる */
         width: 100%; 
         height: 68px;
-        
+        padding: 30px 20px;
         /* padding を幅に含めるため、はみ出しを防ぐ */
         box-sizing: border-box; 
 
