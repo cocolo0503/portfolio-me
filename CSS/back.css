@@ -22,3 +22,9 @@ header {
     /* width, min-height, position, background-image は不要なので削除 */
     margin: 0; /* CSSの重複を避けるため、ここにマージンリセットを記述 */
 }
+
+#profile{
+    width: 90%;
+    margin: 0 auto; /* 中央寄せ */
+    background-color: #f0f0f0;
+}
