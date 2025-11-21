@@ -28,3 +28,16 @@ header {
     margin: 0 auto; /* 中央寄せ */
     background-color: #f0f0f0;
 }
+.image-back{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.image-fr{
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    margin: 0 auto;
+}
