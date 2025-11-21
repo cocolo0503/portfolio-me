@@ -41,3 +41,39 @@ header {
     background-color: white;
     margin: 0 auto;
 }
+.imagegrid{
+    height: 500px;
+}
+
+.imagegrid1{
+    height: 200px;
+}
+
+/* 親要素に対して基準位置を設定 */
+.menu-item {
+    position: relative; /* 子要素（submenu）の配置の基準点になる */
+    list-style: none;
+}
+
+/* プルダウンリスト本体（最初は非表示） */
+.submenu {
+    /* 親要素を基準に配置 */
+    position: absolute; 
+    top: 100%;       /* 親要素の真下に配置 */
+    left: 0;
+    
+    /* 初期状態は非表示にする */
+    display: none;   
+    
+    /* 背景色や枠線などで見た目を整える */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0;
+    margin: 0;
+    z-index: 10; /* 他のコンテンツの上に表示されるようにする */
+}
+
+/* ホバー（マウスを重ねる）時に表示させる */
+.menu-item:hover > .submenu {
+    display: block; /* submenuを表示する */
+}
